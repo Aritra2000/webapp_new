@@ -16,6 +16,6 @@ public partial class TblEmployee
     public string Ph { get; set; } = null!;
 
     [NotMapped]
-    //[Display(Salary_clmn as salary)]
+    [Display(Name ="Salary")]
     public int Salary_clmn { get; set; }
 }
